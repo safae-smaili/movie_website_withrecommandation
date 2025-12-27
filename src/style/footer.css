@@ -1,0 +1,38 @@
+.footer {
+     /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid rgba(33, 32, 32, 0.32);
+}
+/* .ligne{
+    border:1.5px solid rgba(0, 0, 0, 0.37);
+  
+    
+} */
+.footer .logo {
+    width: 120px; /* Taille du logo */
+    margin-bottom: 15px;
+}
+
+.footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espace entre les icônes */
+    font-size: 24px; /* Taille des icônes */
+    margin-bottom: 10px;
+}
+
+.footer .social-icons a {
+    color: white;
+    transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+    color: #f39c12; /* Couleur au survol */
+}
+
+.footer .copyright {
+    font-size: 14px;
+    margin-top: 10px;
+}

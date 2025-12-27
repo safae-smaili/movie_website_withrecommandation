@@ -1,0 +1,79 @@
+/* body{
+    background-image: url('https://azazel5.github.io/NetflixClone/static/media/landingPage.149a098f.jpg');
+} */
+/* html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} */
+#Aj{
+    background-image: url('https://images.unsplash.com/photo-1514306191717-452ec28c7814?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+   
+    background-position: center;  
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh ; 
+    position:absolute;
+    top:0;
+    left:0;
+
+   
+}
+#add{
+
+     display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+   justify-items: center;
+   align-items: center;
+    background-color: rgba(0, 0, 0, .75);
+    border:2px solid rgb(255, 255, 255);
+    margin: 10%;
+    /* margin-left: 35%; */
+    width: 35%;
+    height: 80%;
+    border-radius: 2%;
+    margin: auto;
+    margin-top: 5%;
+    
+
+}
+#add input,textarea{
+    margin:7px;
+    padding: 7px;
+    width: 70%;
+    border: 1px solid rgba(190, 185, 185, 0.598);
+    border-radius: 2px;
+    margin-bottom: 0px;
+    background-color:transparent;
+    border: 0.1em solid rgb(200, 173, 108) ;
+    color:white;
+}
+#add button{
+    margin:7px;
+    padding:4px;
+    /* border-color:  */
+    background-color:transparent;
+    border: 0.17em solid rgb(200, 173, 108) ;
+    border-radius: 5px;
+    width: auto;
+    font-variant:unset;
+    cursor: pointer;
+    color:white
+}
+#add label{
+    color: white;
+    margin-bottom: 2px;
+    position: relative;
+    text-align: left;
+    display: block;
+    width: 70%;
+    
+
+}
+#af{
+    margin-bottom: 5px;
+    color: white;
+}
