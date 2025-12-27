@@ -1,12 +1,12 @@
-# React + Vite
+This movie website is with movie recommandation based on similare movies ( keyword, overview, genres )
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It is deployed using Vercel so it can send request to the model api build on the repo movie_recommendation for more info about the model plz visite:
 
-Currently, two official plugins are available:
+https://github.com/safae-smaili/movie_recommendation.git
+structur: frontend(react,vite)->API(flask)->ML model->tmdb API
+              (Vercel)           (Railway)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To visite the web site and test the recommandation version:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Exemple with recomandation: https://movie-website-withrecommandation.vercel.app/Movies/22
+https://movie-website-withrecommandation.vercel.app/
